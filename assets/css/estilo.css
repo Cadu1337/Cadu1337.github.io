@@ -101,7 +101,7 @@ body{
 
 .contatoblock{
 	position: relative;
-    margin-top: 100px;
+    margin-top: 40px;
     height: 250px;
 	width: 100%;
 	background-color: #013f3d;
@@ -111,70 +111,69 @@ body{
     border-radius: 50%;
 } 
 
+
 .photocircle{
     position: relative;
-    top: -30px;
-    left: 70%;
-    width: 300px;
-    height: 300px;
-    background: white;
+    top: -100px;
+    left: 72.5%;
+    width: 357px;
+    height: 442px;
     margin-right: auto;
 }
 
 .biografia{
     position: relative;
-    top: -295px;
-    left: 20px;
+    top: -250px;
+    left: 60px;
     text-align: center;
     letter-spacing: 0px;
     line-height: 30px;
     font-family: 'Lazelar', sans-serif;
-    font-weight: 200em;
     
 }
 
 .profissao1{
-    position: absolute;
-    top: 10px; 
-    left: 300px;
+    position: relative;
+    top: 8px; 
+    left: 260px;
 }
 
 .dividerborder{
-    position: absolute;
+    position: relative;
     border: 3px;
     height: 100px;
-    width: 900px;
+    width: 800px;
 }
 
 .line{
     position: relative;
-    top: -100px;
-    left: 20px;
+    top: -140px;
+    left: 63px;
     background-color: #ffffff;
     height: 1px;
-    width: 900spx;
+    width: 800px;
 }
 
 .imgfb{
     position: relative;
-    top: -45px;
-    left:111%;
+    top: -36px;
+    left:134%;
     width: 50px;
     height: 50px;    
 }
 
 .imgin{
     position: relative;
-    top: -35px;
-    left: 113%;
+    top: -20px;
+    left: 136%;
     width: 50px;
     height: 50px;
 }
 
 .imgtt{
     position: relative;
-    top: -45px;
-    left: 115%;
+    top: -33px;
+    left: 138%;
     width: 50px;
     height: 50px;    
 }
