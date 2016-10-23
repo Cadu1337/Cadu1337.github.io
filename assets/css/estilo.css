@@ -107,8 +107,33 @@ body{
     background-repeat: no-repeat,repeat;
 }
 
-
+.footer1{
+    position: relative;
+    left: 33%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
 /*/Portifolio/*/
+
+.portfolio1{
+    display: block;
+    background-color: #ffffff;
+    width: 200;
+    height: 200;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.footer2{
+    position: relative;
+    left: 33%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
 
 /*/Contato/*/
 
@@ -171,7 +196,7 @@ body{
 
 .imgfb{
     position: relative;
-    top: -36px;
+    top: -32px;
     left:134%;
     width: 50px;
     height: 50px;    
@@ -191,4 +216,12 @@ body{
     left: 138%;
     width: 50px;
     height: 50px;    
+}
+
+.footer3{
+    position: relative;
+    left: 33%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
 }
