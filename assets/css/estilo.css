@@ -11,7 +11,7 @@
     color:white;
 }
 
-/*/Início/*/
+/*/Início/*/ 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
@@ -20,8 +20,21 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
 }
 
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 346.5;
+    height: 252.5;
+}
+
+h1{
+
+}
+
 .titulo1 {
-	color: #ffffff;
+	top: 100px;
+    color: #ffffff;
 	text-align: center;  
     padding-bottom: 4px;
 	font-size: 2.2em;
