@@ -24,12 +24,6 @@ h1,h2,h3,h4,h5,h6{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 346.5;
-    height: 252.5;
-}
-
-h1{
-
 }
 
 .titulo1 {
@@ -82,8 +76,8 @@ nav > ul > li > a{
 }
 
 .divider{
-	height: 1px;
-	width: 400px;
+	width: 100%;
+	height: auto;
 	background-color: #013f3d;
 	
 }
@@ -122,6 +116,8 @@ body{
     //border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    width: 100%;
+    height: auto;
 }
 
 #myImg:hover {
@@ -262,8 +258,8 @@ body{
 .dividerborder{
     position: relative;
     border: 3px;
-    height: 100px;
     width: 800px;
+    height: 100px;
 }
 
 .line{
