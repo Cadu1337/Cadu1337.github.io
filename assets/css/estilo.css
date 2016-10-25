@@ -76,8 +76,8 @@ nav > ul > li > a{
 }
 
 .divider{
-	width: 100%;
-	height: auto;
+	width: 400px;
+	height: 1px;
 	background-color: #013f3d;
 	
 }
