@@ -19,3 +19,9 @@ body{
     background-position: 0px 0px;
     background-repeat: no-repeat,repeat;
 }
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.8), rgba(0,0,0,0.95));
+    display:block;
+    padding: 45px;
+}
