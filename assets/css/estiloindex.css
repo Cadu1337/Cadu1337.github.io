@@ -1,0 +1,316 @@
+  /*/
+width = largura
+heigth = altura
+  /*/
+
+*{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lalezar|Lato');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Lato');
+
+ html {
+        color: white;
+        display: table;
+        font-family: sans-serif;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+        }
+
+h1,h2,h3,h4,h5,h6{
+        color: white;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 1px;
+        font-family: 'Lazelar', sans-serif;
+        font-weight: 400;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.8), rgba(0,0,0,0.95));
+    display:block;
+    padding: 45px;
+}
+
+body {
+    vertical-align: middle; 
+    margin: 2em auto;
+    min-height:100%;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.95),
+                    rgba(0,0,0,0.95)),url(../image/pattern.png);
+    background-position: 0px 166px;
+    background-repeat: no-repeat,repeat;
+}
+
+@media only screen and (max-width: 320px){
+/*/ínicio/*/
+    .logo{
+        width:250;
+        height:250;
+    }
+
+    nav{
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    nav > ul{
+        list-style-type: none;
+        display: inline;
+        padding: 0;
+    }
+
+    nav > ul > li{
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav > ul > li > a{
+        padding-top: 40;
+        text-decoration: none;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .hamburger{
+        float: right;
+        width: 25px;
+        height: 25px;
+        background-color: #013f3d;
+    }
+
+    .titulo1{
+        padding: -40px;
+        float: left;
+    }
+
+/*/Portfólio/*/
+
+    .titulo2{
+        padding-top: 110px;
+        font-size: 25px;
+    }
+    .greenbag{
+        padding: 55px;
+        width: 200px; 
+        height: 200px;
+    }
+
+    .organizaenem{
+        padding: 55px;
+        width: 200px; 
+        height: 200px;
+    }
+
+   .amazingcube{
+        padding: 55px;
+        height: 200px;
+    }
+
+/*/contato/*/
+    .titulo3{
+        padding: 40px;
+        font-size: 25px;
+    }
+    .quadrobio{
+        width: 100%;
+        height: 300px;
+        background-color: #013f3d;
+    }
+    .p{
+        color: white;
+        padding: 0;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-size: 12;
+    }
+
+    .imgfb{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none; 
+    }
+
+    .imgin{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+    }
+
+    .imgtt{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+    }
+    .footer{
+        position: relative;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 360px){ /*/Pula/*/
+
+}
+
+@media only screen and (max-width: 768px){
+/*/ínicio/*/
+    .logo{
+        width:500;
+        height:500;
+    }
+
+    nav{
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    nav > ul{
+        list-style-type: none;
+        display: inline;
+        padding: 0;
+    }
+
+    nav > ul > li{
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav > ul > li > a{
+        padding-top: 40;
+        text-decoration: none;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .hamburger{
+        float: right;
+        width: 25px;
+        height: 25px;
+        background-color: #013f3d;
+    }
+
+    .titulo1{
+        padding: -40px;
+        position: relative;
+    }
+
+/*/Portfólio/*/
+
+    .titulo2{
+        padding-top: 110px;
+        font-size: 25px;
+    }
+    .greenbag{
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 200px; 
+        height: 200px;
+    }
+
+   .amazingcube{
+        padding-top: 50px;
+        padding-right: 40px;
+        height: 200px;
+        float: right;
+    }
+
+    .organizaenem{
+        padding-top: 50px;
+        padding-right: 65px;
+        width: 200px; 
+        height: 200px;
+        float: right;
+    }
+
+
+/*/contato/*/
+    .titulo3{
+        padding: 40px;
+        font-size: 25px;
+    }
+    .quadrobio{
+        width: 100%;
+        height: 300px;
+        background-color: #013f3d;
+    }
+    .p{
+        color: white;
+        padding: 0;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-size: 12;
+    }
+
+    .imgfb{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none; 
+    }
+
+    .imgin{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+    }
+
+    .imgtt{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+    }
+    .footer{
+        position: relative;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+    }
+}
+
+}  
+
+@media only screen and (max-width: 800px){ /*/Pula/*/
+  
+}
+
+@media only screen and (max-width: 980px){
+    
+}
+
+@media only screen and (max-width: 1280px){ /*/Pula/*/
+    
+}
+@media only screen and (max-width: 1920px){ /*/Pula/*/
+    
+}
+
+
+
+
+
+
+
+
+     
