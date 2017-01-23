@@ -53,8 +53,8 @@ body {
 @media only screen and (max-width: 320px){
 /*/ínicio/*/
     .logo{
-        width:250;
-        height:250;
+        width:250px;
+        height:250px;
     }
 
     nav{
@@ -163,7 +163,6 @@ body {
         font-size: 12px;
     }
 }
-
 
 @media only screen and (max-width: 360px){ /*/Pula/*/
 
@@ -287,9 +286,7 @@ body {
         color: #ffffff;
         font-size: 12px;
     }
-}
-
-}  
+} 
 
 @media only screen and (max-width: 800px){ /*/Pula/*/
   
